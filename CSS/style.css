@@ -1,2 +1,18 @@
-body{background-color: beige;
+body{background-color: rgb(255, 249, 234);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+a:hover{
+    color: violet;
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    max-width: 90%;
+    margin: auto;
+    height: 500px; /* Sesuaikan tinggi sesuai keinginan */
+    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+}
